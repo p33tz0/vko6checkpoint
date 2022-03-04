@@ -76,6 +76,7 @@ def uploadfile():
     with open("checkpoint.txt", "rb") as data:
         blob.upload_blob(data)
 
+request()
 print("Ohjelma luo RG:n")
 createrg()
 print("Ohjelma odottaa 10 sec, jotta RG on varmasti luotu")
