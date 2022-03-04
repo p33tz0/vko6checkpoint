@@ -48,6 +48,8 @@ def readfile():
         for x in range(args.x):
             print (a[x])
 
+        f.close()
+
 
 
 downloadfile()
