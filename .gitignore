@@ -2,3 +2,4 @@
 .venv/
 *.pyc
 vko6-1/checkpoint.txt
+vko6-2/checkpoint.txt
